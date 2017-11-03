@@ -15,39 +15,27 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
 
-<style>
-body{
-background-color:slategray;
-}
-.header{
-  color:skyblue;
-}
-img {
-  width: 200px;
-}
-</style>
+    <link rel="stylesheet" href="css/styles.css">
 
   </head>
   <body >
-    <nav>
+    <nav class="container">
       <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="projects">Project</a></li>
-
+    <li class="navlink"><a href="/">Home</a></li>
+    <li class="navlink"><a href="projects">Project</a></li>
+    <li class="navlink"><a href="/media">Media</a></li>
 
       </ul>
     </nav>
-<h1 class="header">
-  Casey Hill
-</h1>
-      <img src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmtAAAAJGViZjE2NzE4LWE5MGEtNGRjNy1iYTQ3LTYxZjU0YmE0NmZlOA.jpg"  alt="Profile Pic">
+<Header class="container">
+  <h1 class="header">Casey Hill</h1>
+</Header>
+<img src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmtAAAAJGViZjE2NzE4LWE5MGEtNGRjNy1iYTQ3LTYxZjU0YmE0NmZlOA.jpg"  alt="Profile Pic">
 
+<main>
+<p>I am currently learning HTML, CSS, and javaScript</p>
 
-      <p>I am currently learning HTML, CSS, and javaScript</p>
-
-    <h1>
-      About Me
-    </h1>
+<h1>About Me</h1>
     <ul>
       <li>I work for Schneider Electric</li>
       <li>I am a manufacturing engineer</li>
@@ -60,5 +48,10 @@ img {
 
     <a href="https://www.linkedin.com/in/casey-hill-9278b919/">LinkedIn</a>
     <a href="https://github.com/hill897">GitHub</a>
+  </main>
+<div ID="box">
+
+</div>
+
   </body>
 </html>

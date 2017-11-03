@@ -1,0 +1,49 @@
+body{
+background-color:slategray;
+padding: 0;
+margin: 0;
+}
+nav {
+  background-color: black;
+  height: 50px;
+  padding: 25px;
+}
+.header{
+  color:skyblue;
+  font-size: 88px;
+  /*border: 1px solid blue;*/
+  border-color: red;
+  border-style: dotted;
+  border-width: 5px;
+  padding: 20px 15px 10px 5%;
+  width: 50%;
+  margin: 10px auto;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 200px;
+}
+li.navlink {
+  display: inline;
+  margin: 0 20px;
+}
+li.navlink a{
+  color: white;
+  text-decoration: None;
+  text-transform: uppercase;
+  font-size 25px;
+}
+nav ul {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+}
+#box {
+  width: 100px;
+  height:200px;
+  border: 2px solid blue;
+  margin: 0 auto;
+}
