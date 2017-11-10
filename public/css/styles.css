@@ -19,7 +19,7 @@ nav {
   margin: 10px auto;
 }
 .container{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 img {
@@ -44,4 +44,12 @@ nav ul {
   height:200px;
   border: 2px solid blue;
   margin: 0 auto;
+}
+#greeting {
+  background-color: cyan;
+  text-align: left;
+  display:inline-block;
+}
+#greeting p {
+margin: 0;
 }

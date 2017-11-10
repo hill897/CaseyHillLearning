@@ -18,12 +18,59 @@
   </ul>
 </nav>
 <main class="container">
-  <form action="">
-    <input type="text">
-    <input type="password">
-    <input type="email">
-    <input type="submit">
-  </form>
+  <!--
+ The action attribute defines where on the server the form data should be sent
+ The method attribute specifies the HTTP method (GET or POST)
+-->
+
+<form action="http://formspree.io/casey.hill7@gmail.com" method="POST">
+<div>
+ <input type="text" name="firstname" value="First Name" size="100" autofocus>
+ </div><br>
+<div>
+ <input type="text" name="lastname" value="Last Name" size="100">
+</div>
+ <br>
+ <input type="email" name="userEmail" placeholder="your.email@example.com">
+ <br>
+<br>
+ <label>What's this message about?<br>
+   <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+   <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
+   <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+ </label>
+ <br>
+<br>
+ <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
+ <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+<br>
+<br>
+ <label for="marketing">How did you hear about me?</label>
+ <br>
+ <select name="marketing">
+   <optgroup label="Online">
+     <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
+     <option value="github">Online Portfolio (GitHub)</option>
+     <option value="search">Search Engine</option>
+     <option value="email">Email</option>
+   </optgroup>
+   <optgroup label="In-Person">
+     <option value="networking">We met at a networking event</option>
+     <option value="referral">Personal referral</option>
+     <option value="random">We met somewhere else</option>
+   </optgroup>
+   <br>
+   <option value="other">Other</option>
+   <br>
+ </select>
+<br>
+ <textarea name="user_message" rows="8" cols="40"></textarea>
+ <br>
+ <input type="color">
+ <br>
+ <input type="date">
+ <input type="submit">
+</form>
 </main>
 </body>
 </html>
